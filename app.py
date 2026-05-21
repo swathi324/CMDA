@@ -47,7 +47,7 @@ def diagnose_environment():
     # 3. API Key Check
     st.write("Checking Gemini API Connectivity...")
     try:
-        client = genai.Client(api_key="AIzaSyDmUXxV62V1sKKqCVOR1l4q76nEkr9yx4k")
+        client = genai.Client(api_key="")
         # List models is a good lightweight check
         models = client.models.list()
         st.success("Gemini API connection successful.")
