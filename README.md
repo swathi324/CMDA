@@ -41,14 +41,8 @@ CMDA-Document-Scraper/
 │
 ├── english-pdf.py
 ├── tamil-pdf.py
-├── CMDA_PDFs/
-├── CMDA_TAMIL_PDFs/
-│   ├── Volume_1/
-│   ├── Volume_2/
-│   └── Volume_3/
-├── requirements.txt
 ├── README.md
-└── .gitignore
+
 
 
 # English Document Scraper
@@ -103,7 +97,7 @@ Organize by Language/Volume
 ## Clone Repository
 
 ```bash
-git clone https://github.com/swathi324/CMDA-Document-Scraper.git
+git clone https://github.com/swathi324/CMDA.git
 ```
 
 ---
